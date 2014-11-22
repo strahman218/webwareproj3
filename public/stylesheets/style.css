@@ -1,8 +1,56 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+
+/* table format*/
+table, th, td {
+  width: 50%;
 }
 
-a {
-  color: #00B7FF;
+/* items in table format */
+th, td {
+  padding: 5px;
 }
+/* all div tags will inherit from this style */
+div {
+  float: left;
+}
+
+/* style classes */
+/* these are simply named styles that can be called by any/multiple HTML tags */
+
+/* define the style that will be used by the parent DIV object  for absolute positioning*/
+div#parentdiv {
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+div#topdiv {
+  height: 10%;
+  width: 100%;
+
+}
+
+div#leftdiv {
+
+  width: 40%;
+  height: 40%;
+
+}
+div#rightdiv {
+
+  width: 40%;
+  height: 40%;
+}
+
+div#bottomdiv{
+  width: 100%;
+  align-content: center;
+}
+
+
+#mainImage{
+  height: 225px;
+  width:300px;
+}
+
